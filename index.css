@@ -1,0 +1,49 @@
+.container {
+    margin: 15px 500px 10px 500px;
+    padding: 20px 20px 20px 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.one {
+    color: white;
+}
+
+.two {
+    color:rgb(221, 208, 208)
+}
+
+.three {
+    color: aqua;
+    vertical-align: top;
+}
+
+.four {
+    padding-left: 35%;
+}
+
+.five {
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+.six {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.seven {
+    vertical-align: top;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+     color: hsl(128, 90%, 48%); 
+}
+
+.zoom:hover {
+    transform: scale(0.75);
+    transition: transform 4s ease;
+}
