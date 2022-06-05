@@ -4,12 +4,20 @@
     background-color: hsl(216, 50%, 16%);
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 50px;
+        padding: 20px 20px 20px 20px;
+        background-color: hsl(216, 50%, 16%);
+    }
+}
+
 .one {
     color: white;
 }
 
 .two {
-    color:rgb(221, 208, 208)
+    color: rgb(221, 208, 208)
 }
 
 .three {
@@ -34,13 +42,14 @@
     vertical-align: top;
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
     color: hsl(0, 0%, 100%);
 }
 
 .attribution a {
-     color: hsl(128, 90%, 48%); 
+    color: hsl(128, 90%, 48%);
 }
 
 .zoom:hover {
